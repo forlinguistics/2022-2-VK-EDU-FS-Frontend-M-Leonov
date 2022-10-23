@@ -12,7 +12,7 @@
  * и класса (например, отрицательные числа)
  */
 
-import {re} from "@babel/core/lib/vendor/import-meta-resolve.js";
+//import {re} from "@babel/core/lib/vendor/import-meta-resolve.js";
 
 export default function convertBytesToHuman(bytes) {
     const t_arr = [' B',' KB',' MB',' GB',' TB',' PB',' EB']
