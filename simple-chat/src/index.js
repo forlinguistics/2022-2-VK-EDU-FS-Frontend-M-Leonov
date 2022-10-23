@@ -14,9 +14,9 @@ function handleSubmit(event) {
     const list = document.querySelector('.messages');
     list.insertAdjacentHTML("beforeend",
         `<p class="message-item"">
-            <span>${input.value}</span>
+            <span class="message-text">${input.value}</span>
+            <span class="message-time">${time}</span>
             </p>`)
-
     input.value = '';
 }
 
